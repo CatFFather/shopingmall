@@ -56,22 +56,26 @@ body{
   list-style-type : none;
   padding: 0;
   width: 100%;
-  max-width: 415px;
+  /* max-width: 415px; */
 }
 
 .contents .filterList li{
+  width: calc(100% / 6);
   margin: 0 10px;
-  width: 100%;
   cursor: pointer;
 }
-.contents .filterList li .colorSort{
-  width: calc(100% / 6);
+.contents .filterList li .filter{
   height: 40px;
   display: flex;
   align-items: center;
   padding: 5px;
+}
+.contents .filterList li .filter>span{
+  height: 40px;
+  display: flex;
+  align-items: center;
+  font-weight:bold;
   font-size: 20px;
-  font-weight:bold
 }
 
 .contents .itmesList{
@@ -87,10 +91,11 @@ body{
 .contents .itmesList ul{
   display: flex;
   flex-direction: column;
-  min-width: 405px;
+  /* min-width: 405px; */
   list-style-type : none;
   padding: 0;
   margin: 0;
+  width: 100%;
 }
 
 .contents .itmesList li{
