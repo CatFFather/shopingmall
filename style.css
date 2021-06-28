@@ -11,3 +11,98 @@
 * {
   box-sizing: border-box;
 }
+
+html{
+  height: 100%;
+  width: 100%;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+body{
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+.contents{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: 100%;
+  overflow:hidden;
+  background-color: #3f454d;
+}
+.contents img{
+  width: 40px;
+  height: 40px;
+}
+.contents .logo{
+  display: flex;
+  justify-content: center;
+}
+
+.contents .logo img{
+  width: 100px;
+  height: 100px;
+}
+
+.contents .filterList{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.contents .filterList ul{
+  display: flex;
+  justify-content: center;
+  list-style-type : none;
+  padding: 0;
+  width: 100%;
+  max-width: 415px;
+}
+
+.contents .filterList li{
+  margin: 0 10px;
+  width: 100%;
+}
+.contents .filterList li .colorSort{
+  width: calc(100% / 6);
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  font-size: 20px;
+  font-weight:bold
+}
+
+.contents .itmesList{
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+  width: 100%;
+}
+
+.contents .itmesList::-webkit-scrollbar{ display:none; }
+
+
+.contents .itmesList ul{
+  display: flex;
+  flex-direction: column;
+  min-width: 405px;
+  list-style-type : none;
+  padding: 0;
+  margin: 0;
+}
+
+.contents .itmesList li{
+  background-color: #ffffff;
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+  border-radius:6px;
+  padding:5px;
+}
+.contents .itmesList li > img{
+  margin: 0px 15px;
+}
+
+.contents .itmesList li > span{
+  font-size: 18px;
+}

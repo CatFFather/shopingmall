@@ -6,6 +6,29 @@
     <title>Online Shopping</title>
     <link rel="stylesheet" href="style.css" />
     <script src="src/main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap" rel="stylesheet">
   </head>
-  <body></body>
+  <body onload="getList()">
+    <main class="contents">
+      <div class="logo" onclick="getList()"><img src="img/logo.png"/></div>
+      <!-- 정렬 리스트 -->
+      <div class="filterList">
+        <ul>
+          <li onclick="getList('kind','shirt')"><div class="colorSort"><img src="img/blue_t.png"/></div></li>
+          <li onclick="getList('kind','pants')"><div class="colorSort"><img src="img/blue_p.png"/></div></li>
+          <li onclick="getList('kind','skirt')"><div class="colorSort"><img src="img/blue_s.png"/></div></li>
+          <li onclick="getList('color','blue')" style="background-color: #3b88c3;"><div class="colorSort">Blue</div></li>
+          <li onclick="getList('color','yellow')" style="background-color: #fbbe28;"><div class="colorSort">Yellow</div></li>
+          <li onclick="getList('color','pink')" style="background-color: #fd7f84;"><div class="colorSort">Pink</div></li>
+        </ul>
+      </div>
+      <!-- 아이템 리스트 -->
+      <div class="itmesList">
+        <ul>
+        </ul>
+      </div>
+    </main>
+  </body>
 </html>
