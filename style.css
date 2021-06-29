@@ -72,7 +72,6 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px;
 }
 .contents .filterList li .filter>span{
   height: 40px;
@@ -80,6 +79,8 @@ body{
   align-items: center;
   font-weight:bold;
   font-size: 20px;
+  border-radius:6px;
+  padding: 10px;
 }
 
 .contents .itmesList{
