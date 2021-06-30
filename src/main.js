@@ -85,5 +85,19 @@ function getList(type,value){
     })
 }
 
+// json 파일을 fetch를 이용하여 받아오는것 해보기
 
+// function getData (){
+//     fetch('data/data.json')
+//     .then(function(response) {
+//         return response.json();
+//     })
+//     .then(function(myJson) {
+//         console.log(myJson.clothes)
+//         return myJson.clothes
+//     });
+// }
+// let datalist = null
+// getData().then((result)=>{datalist=result})
+// console.log(datalist)
 

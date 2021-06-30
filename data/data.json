@@ -1,0 +1,67 @@
+{
+    "clothes" : [
+        {
+            "color": "blue",
+            "kind":"pants",
+            "size":"small",
+            "sex":"man",
+            "img":"img/blue_p.png"
+        },
+        {
+            "color": "blue",
+            "kind":"skirt",
+            "size":"small",
+            "sex":"female",
+            "img":"img/blue_s.png"
+        },
+        {
+            "color":"blue",
+            "kind":"shirt",
+            "size":"large",
+            "sex":"male",
+            "img":"img/blue_t.png"
+        },
+        {
+            "color": "yellow",
+            "kind":"pants",
+            "size":"large",
+            "sex":"man",
+            "img":"img/yellow_p.png"
+        },
+        {
+            "color": "yellow",
+            "kind":"skirt",
+            "size":"large",
+            "sex":"female",
+            "img":"img/yellow_s.png"
+        },
+        {
+            "color": "yellow",
+            "kind":"shirt",
+            "size":"large",
+            "sex":"male",
+            "img":"img/yellow_t.png"
+        },
+        {
+            "color": "pink",
+            "kind":"pants",
+            "size":"small",
+            "sex":"female",
+            "img":"img/pink_p.png"
+        },
+        {
+            "color": "pink",
+            "kind":"skirt",
+            "size":"small",
+            "sex":"female",
+            "img":"img/pink_s.png"
+        },
+        {
+            "color": "pink",
+            "kind":"shirt",
+            "size":"large",
+            "sex":"female",
+            "img":"img/pink_t.png"
+        }
+    ]
+} 
